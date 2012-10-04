@@ -1,0 +1,73 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="_2Do.IntroductionPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="TOMATOLIST" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="Introduction" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ScrollViewer>
+                <StackPanel Orientation="Vertical">
+                    <TextBlock TextWrapping="Wrap">
+                    <Run  Text="What" FontSize="30"/>                    
+                    <LineBreak/>
+                    <Run  Foreground="Gray"
+                        Text="The Pomodoro technique is a time management method developed by Francesco Cirillo in the late 1980s."/>
+                    <LineBreak/>
+                    <Run Foreground="Gray"
+                        Text="The technique uses a timer to break down periods of work into 25-minute intervals called 'Pomodoros' (from the Italian word for 'tomato') separated by breaks."/>
+                    <LineBreak/>
+                    <Run Foreground="Gray" 
+                        Text="Closely related to concepts such as timeboxing and iterative and incremental development used in software design, the method has been adopted in pair programming contexts."/>
+                    <LineBreak/>
+                    <Run Foreground="Gray" 
+                        Text="The method is based on the idea that frequent breaks can improve mental agility."/>
+                    <LineBreak/>
+                <Run  FontWeight="Normal" Text="How" FontSize="30" />
+                <LineBreak/>
+                <Run  FontWeight="Normal" Foreground="Gray"
+                      Text="   1. decide on the task to be done" FontSize="20"/>
+                <LineBreak/>
+                <Run  FontWeight="Normal" Foreground="Gray"
+                      Text="   2. set the pomodoro (timer) to 25 minutes" FontSize="20"/>
+                <LineBreak/>
+                <Run  FontWeight="Normal" Foreground="Gray"
+                      Text="   3. work on the task until the timer rings; record with an x" FontSize="20"/>
+                <LineBreak/>
+                <Run  FontWeight="Normal" Foreground="Gray"
+                      Text="   4. take a short break (3-5 minutes)" FontSize="20"/>
+                <LineBreak/>
+                <Run  FontWeight="Normal" Foreground="Gray"
+                      Text="   5. every four pomodoros take a longer break (15–30 minutes)" FontSize="20"/>
+                <LineBreak/>
+                    </TextBlock>
+                    <Image Source="Background.png"/>
+                </StackPanel>
+            </ScrollViewer>
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
