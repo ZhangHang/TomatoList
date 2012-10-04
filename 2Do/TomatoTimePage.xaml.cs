@@ -33,7 +33,6 @@ namespace _2Do
             resetTime = TimeSpan.FromMinutes(25);
             Update();
             UpdateTimer.Start();
-            this.Loaded += new RoutedEventHandler(TomatoTimePage_Loaded);
         }
 
 

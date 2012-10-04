@@ -138,12 +138,6 @@
     </Content>
     <Content Include="SplashScreenImage.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\Downloads\SqliteClient_WP7_0.6.1\Community.CsharpSqlite.WP\Community.CsharpSqlite.WP.csproj">
-      <Project>{527EEB7D-2879-498D-90AE-05C97D0A0B0F}</Project>
-      <Name>Community.CsharpSqlite.WP</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

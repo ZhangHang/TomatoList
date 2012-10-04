@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010 Express for Windows Phone
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2Do", "2Do\2Do.csproj", "{44182200-B4CE-40DF-B82C-019BEB4271F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.CsharpSqlite.WP", "..\..\..\..\Downloads\SqliteClient_WP7_0.6.1\Community.CsharpSqlite.WP\Community.CsharpSqlite.WP.csproj", "{527EEB7D-2879-498D-90AE-05C97D0A0B0F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{44182200-B4CE-40DF-B82C-019BEB4271F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44182200-B4CE-40DF-B82C-019BEB4271F6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{44182200-B4CE-40DF-B82C-019BEB4271F6}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{527EEB7D-2879-498D-90AE-05C97D0A0B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{527EEB7D-2879-498D-90AE-05C97D0A0B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{527EEB7D-2879-498D-90AE-05C97D0A0B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{527EEB7D-2879-498D-90AE-05C97D0A0B0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
